@@ -1,0 +1,92 @@
+.textRight {
+  text-align: right;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* .container{
+  background-color: white;
+} */
+
+table {
+  margin-left: 0.1vw;
+  margin-right: 3vw;
+  margin-bottom: 10vh;
+  margin-top: 5vh;
+  box-shadow: 0px 0px 10px rgba(114, 114, 113, 0.5);
+  border-radius: 15px;
+  font-family: futura-pt, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  border-collapse: collapse;
+  background-color: white;
+  width: 100%;
+  border-radius: 15px;
+  overflow:hidden
+}
+
+th {
+  font-size: 18px;
+  text-align: left;
+  padding: 20px 20px 20px 20px;
+}
+
+table,
+td {
+  padding: 8px 8px 8px 20px;
+}
+
+tr:nth-child(even) {
+  background-color: #b9d3ee;
+}
+
+table tr:nth-child(odd){background-color: #f2f2f2;}
+
+table tr:hover {background-color: #eed6ec;}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #331763;
+  color: black;
+}
+
+.button{
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
